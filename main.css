@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:600,700|Major+Mono+Display');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 800;
+}
+
+.why-wrapper{
+    text-align: center;
+}
