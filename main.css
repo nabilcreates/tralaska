@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
 body {
     font-family: 'Inconsolata', monospace;
     background: #000000;
     color: white;
 }
 
-.jumbotron{
+.jumbotron {
     padding: 90px 0;
     background: #000000;
 
@@ -18,19 +19,28 @@ h3 {
     color: cyan;
 }
 
-.project-wrapper p{
+.project-wrapper p {
     margin: 0 10px 0 0;
-    padding: 5px;
+    padding: 0 5px 0 5px;
     float: left;
-}
-
-.project-wrapper p:hover{
     background: cyan;
     color: black;
+    font-size: 17px;
 }
 
-i{
+i {
     padding: 10px 0;
     font-size: 40px;
     color: cyan;
 }
+
+.title {
+    font-size: 45px;
+}
+
+/* .col-title{
+    background: cyan;
+    color: black;
+    margin: 0 10px 0 0;
+    padding: 0 5px 0 5px;
+} */
