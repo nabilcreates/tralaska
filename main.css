@@ -10,6 +10,12 @@ h3 {
     font-weight: 800;
 }
 
-.why-wrapper{
-    text-align: center;
+.project-wrapper p{
+    margin: 0 10px 0 0;
+    padding: 5px;
+    float: left;
+}
+
+.project-wrapper p:hover{
+    background: grey;
 }
