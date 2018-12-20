@@ -4,6 +4,10 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.jumbotron{
+    padding: 90px 0;
+}
+
 h1,
 h2,
 h3 {
@@ -18,4 +22,8 @@ h3 {
 
 .project-wrapper p:hover{
     background: grey;
+}
+
+.semi-title{
+    font-size: 45px;
 }
