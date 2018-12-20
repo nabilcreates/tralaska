@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
 body {
     font-family: 'Inconsolata', monospace;
-    background: #020202;
+    background: #000000;
     color: white;
 }
 
 .jumbotron{
     padding: 90px 0;
-    background: #111111;
+    background: #000000;
 
 }
 
@@ -15,6 +15,7 @@ h1,
 h2,
 h3 {
     font-weight: 700;
+    color: cyan;
 }
 
 .project-wrapper p{
@@ -24,10 +25,12 @@ h3 {
 }
 
 .project-wrapper p:hover{
-    background: grey;
+    background: cyan;
+    color: black;
 }
 
 i{
     padding: 10px 0;
     font-size: 40px;
+    color: cyan;
 }
