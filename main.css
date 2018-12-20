@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:600,700|Major+Mono+Display');
-
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    background: #020202;
+    color: white;
 }
 
 .jumbotron{
     padding: 90px 0;
+    background: #111111;
+
 }
 
 h1,
@@ -22,8 +25,4 @@ h3 {
 
 .project-wrapper p:hover{
     background: grey;
-}
-
-.semi-title{
-    font-size: 45px;
 }
